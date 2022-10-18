@@ -27,6 +27,26 @@ TBD
 
 TBD
 
+### Vagrant
+
+To spin up vagrant box in virtualbox, run:
+
+```vagrant up --provider virtualbox```
+
+Or replace *virtualbox* with some other provider, just beware, that Vagrantfile considers one *eth0* interface already exists and creates another one *eth1* for meshing.
+
+To ssh into a box, run:
+
+```vagrant ssh```
+
+To detach from the shh, press:
+
+```Ctrl-D```
+
+After you're finished, destroy a box by running:
+
+```vagrant destroy```
+
 ### Packer
 
 To build a vagrant box with packer run:
@@ -48,26 +68,6 @@ amazon-instance null virtualbox-vm yandex hyperone profitbricks azure-chroot
 linode digitalocean azure-dtl osc-bsusurrogate cloudstack
 ```
 
-### Vagrant
-
-To spin up vagrant box in virtualbox, run:
-
-```vagrant up --provider virtualbox```
-
-Or replace *virtualbox* with some other provider, just beware, that Vagrantfile considers one *eth0* interface already exists and creates another one *eth1* for meshing.
-
-To ssh into a box, run:
-
-```vagrant ssh```
-
-To detach from the shh, press:
-
-```Ctrl-D```
-
-After you're finished, destroy a box by running:
-
-```vagrant destroy```
-
-## Licence
+## License
 
 Licensed under MIT licence.
