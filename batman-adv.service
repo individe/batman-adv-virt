@@ -1,0 +1,9 @@
+[Unit]
+Description=Your Script Name here
+
+After=default.target
+[Service]
+ExecStart=/etc/start-batman-adv.sh
+
+[Install]
+WantedBy=default.target

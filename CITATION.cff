@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Milošević"
+  given-names: "Aleksa"
+title: "batman-adv-virt, a toolkit for fast and easy virtualization and containerization of batman-adv instances"
+version: 0.1.0
+date-released: 2022-10-18
+url: "https://github.com/individe/batman-adv-virt"

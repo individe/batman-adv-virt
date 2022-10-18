@@ -1,0 +1,6 @@
+# vagrant
+.vagrant
+
+# packer
+output-batman-adv-virt
+*.checksum
