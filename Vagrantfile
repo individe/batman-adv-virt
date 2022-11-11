@@ -1,7 +1,7 @@
 Vagrant.configure("2") do |config|
     config.vm.box = "debian/bullseye64"
 
-    # add one more interface, since we need the first one for batman
+    # add one more interface, for meshing
     config.vm.network "private_network", ip: "192.168.56.101"
     
     # install apt dependencies

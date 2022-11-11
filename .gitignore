@@ -4,3 +4,6 @@
 # packer
 output-batman-adv-virt
 *.checksum
+
+# notes and stuff...
+.commitMsg
